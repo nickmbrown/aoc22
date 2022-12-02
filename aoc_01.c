@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void ReplaceLowestValueInArrayInArray(int array[], int arraySize, int newValue)
-{
+void ReplaceLowestValueInArray(int array[], int arraySize, int newValue) {
     int lowestIndex = 0;
     for (int i = 0; i < arraySize; i++)
     {
@@ -17,17 +16,13 @@ void ReplaceLowestValueInArrayInArray(int array[], int arraySize, int newValue)
 
     // printf("Replacing [%i] with [%i]\n\n", array[lowestIndex], newValue);
     array[lowestIndex] = newValue;
-    
 }
 
-void PrintHighestCalorieCount(FILE *input)
-{
+void PrintHighestCalorieCount(FILE* input) {
     int highestCal = 0, total = 0, lowest = 0;
     int highestCals[3] = {0, 0, 0};
     char line[1000];
 
-
-    int counter = 0;
     while (fgets(line, sizeof(line), input) != NULL)
     {
         if(line[0] != '\n')
@@ -50,11 +45,8 @@ void PrintHighestCalorieCount(FILE *input)
                     break;
                 }
             }
-
             total = 0;
         }
-
-        counter++;
     }
     
     // This is the total calorie count for the elf carrying the most calories
@@ -70,17 +62,16 @@ void PrintHighestCalorieCount(FILE *input)
     printf("Sum of 3 Highest: %i\n", highestCal); // 201524 = 69281 + 67653 + 64590
 }
 
-int main(void)
-{
-    FILE *input = fopen("aoc_01_input.txt", "r");
+int main(void) {
+    FILE* input = fopen("aoc_01_input.txt", "r");
     if(input == NULL) 
     {
         printf("Error. File could not be opened\n");
-        exit(-1);
+        return -1;
     }
 
     PrintHighestCalorieCount(input);
 
     fclose(input);
-    exit(0);
+    return 0;
 }
