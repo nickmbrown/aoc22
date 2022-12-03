@@ -9,3 +9,6 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 ## Day 2
 - Played with pointers in functions today and have no idea whether I used them correctly. Everything works though.
 - I might come back to this one later to try to clean it up a little bit. I don't like how I implemented part 2, but it is what it is for now. 
+
+## Day 3
+- Once again not done in the most efficient way, but still learning a lot.
