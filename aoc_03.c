@@ -28,7 +28,6 @@ int main(void) {
             char commonItem3 = GetCommonItem3(line1, line2, line3, sizeof(line));
             int itemPriority3 = GetItemPriority(commonItem3);
             prioritySum3 += itemPriority3;
-            printf("ItemPriority3: %i PrioritySum3: %i\n", itemPriority3, prioritySum3);
             index = 0;
         }
 
@@ -39,8 +38,8 @@ int main(void) {
         
     }
 
-    printf("Priority Sum: %i\n", prioritySum);
-    printf("Priority Sum 3: %i\n", prioritySum3);
+    printf("Priority Sum: %i\n", prioritySum); // 8298
+    printf("Priority Sum 3: %i\n", prioritySum3); // 2708
 
     fclose(input);
     return 0;
@@ -98,11 +97,9 @@ char GetCommonItem3(char line1[], char line2[], char line3[], int size) {
 }
 
 int GetItemPriority(char item) {
-    char prioritymap[52] = {'a','b','c','d','e','f','g','h','i','j','k','l',
-    'm','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E',
-    'F','G','H','I','J','K','L','M','N','O','P','Q','R', 'S','T','U','V','W','X','Y','Z' };
-
-    for (size_t i = 0; i < sizeof(prioritymap); i++)
+    char prioritymap[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    for (size_t i = 0; prioritymap[i] != 0; i++)
     {
         if (item == prioritymap[i]) {
             return i+1;
@@ -110,7 +107,6 @@ int GetItemPriority(char item) {
     }
 
     return -1;
-    
 }
 
 int GetStringLength(char string[], int size) {
