@@ -14,4 +14,8 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 - Once again not done in the most efficient way, but still learning a lot. 
 
 ## Day 4
-- This was definitely the hardest input to parse so far, but, once I had access to the data, the logic was fairly straightforward. -->
+- This was definitely the hardest input to parse so far, but, once I had access to the data, the logic was fairly straightforward.
+
+## Day 5
+- This one kicked my butt. The hardest part was parsing the data. There's probably a way better method, but the sscanf function was super useful for getting the movement directions.
+- I ended up using a stack, but there was no way I could implement my own without spending way more time. The implementation I used was a combination of a few articles that are linking in the .c file.  -->

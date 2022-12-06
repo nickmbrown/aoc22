@@ -49,5 +49,6 @@ int main(void) {
     printf("Num Fully Contained: %i\n", numfullycontained);
     printf("Num overlapping: %i\n", numOverlapping );
 
+    fclose(input);
     return 0;
 }
