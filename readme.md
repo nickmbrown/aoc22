@@ -18,4 +18,8 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 
 ## Day 5
 - This one kicked my butt. The hardest part was parsing the data. There's probably a way better method, but the sscanf function was super useful for getting the movement directions.
-- I ended up using a stack, but there was no way I could implement my own without spending way more time. The implementation I used was a combination of a few articles that are linking in the .c file.  -->
+- I ended up using a stack, but there was no way I could implement my own without spending way more time. The implementation I used was a combination of a few articles that are linking in the .c file. 
+
+## Day 6
+- This one stumped me for a second, but I got there eventually. More often than not, it's not the problem itself that is tricky, it's how to solve the problem without some feature of modern languages. C is proving to be tricky at times.
+- Very proud that all I had to do to solve part 2 was change a variable. -->
