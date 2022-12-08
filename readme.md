@@ -22,4 +22,7 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 
 ## Day 6
 - This one stumped me for a second, but I got there eventually. More often than not, it's not the problem itself that is tricky, it's how to solve the problem without some feature of modern languages. C is proving to be tricky at times.
-- Very proud that all I had to do to solve part 2 was change a variable. -->
+- Very proud that all I had to do to solve part 2 was change a variable.
+
+## Day 7
+- Learned about recursively reading files in C by setting and getting the file pointer manually. Definitely not easy to wrap my head around, but I got there in the end. -->
