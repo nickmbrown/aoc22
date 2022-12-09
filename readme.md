@@ -25,4 +25,7 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 - Very proud that all I had to do to solve part 2 was change a variable.
 
 ## Day 7
-- Learned about recursively reading files in C by setting and getting the file pointer manually. Definitely not easy to wrap my head around, but I got there in the end. -->
+- Learned about recursively reading files in C by setting and getting the file pointer manually. Definitely not easy to wrap my head around, but I got there in the end.
+
+## Day 8
+- My solution to this couldn't be any uglier. I mostly fussed around with how you're supposed to point to values within a 2D array. There's a lot of repeat code in there that could be refactored, but ¯\_(ツ)_/¯ -->
