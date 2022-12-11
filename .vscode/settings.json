@@ -5,6 +5,7 @@
         "string_view": "c",
         "cstdlib": "c",
         "initializer_list": "c",
-        "utility": "c"
+        "utility": "c",
+        "cmath": "c"
     }
 }
