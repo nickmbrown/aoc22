@@ -31,4 +31,7 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 - My solution to this couldn't be any uglier. I mostly fussed around with how you're supposed to point to values within a 2D array. There's a lot of repeat code in there that could be refactored, but ¯\_(ツ)_/¯
 
 ## Day 9
-- I don't think I solved part 1 in the optimal way so I'm struggling with Part 2. Gonna leave it for now and then come back to it. -->
+- I don't think I solved part 1 in the optimal way so I'm struggling with Part 2. Gonna leave it for now and then come back to it.
+
+## Day 10
+- So much easier than the last few days. -->
