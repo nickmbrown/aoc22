@@ -34,4 +34,7 @@ I had the (possibly dumb) idea of using this year's Advent of Code as an opportu
 - I don't think I solved part 1 in the optimal way so I'm struggling with Part 2. Gonna leave it for now and then come back to it.
 
 ## Day 10
-- So much easier than the last few days. -->
+- So much easier than the last few days.
+
+## Day 11
+- I've been banging my head for hours. I wasn't able to get the program working with the sample data fairly quickly, but swapping in the real data completely bombed it. I finally got part 1 after much trial & error, but part 2 might be out of my reach for now. No idea how to deal with numbers this large. -->
